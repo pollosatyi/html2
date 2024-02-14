@@ -1,0 +1,48 @@
+.main-container{
+    width:100vw;
+    height:100vh;
+    background-color:rgb(229, 220, 220) ;
+    position:absolute;
+}
+
+.container_1{
+    background-color: pink;
+    position:absolute;
+    left:5vw;
+    right:5vw;
+    top:5vh;
+    bottom:5vh;
+}
+
+.ol_1{
+    list-style-type:decimal;
+    margin-top:4.5vh;
+    margin-left:1vw;
+}
+
+.ol_1 li{
+    display:flex;
+    width:82vw;
+    height:13vh;
+    background-color: rgb(206, 152, 161);
+    margin-bottom:3vw;
+    font-size: 36px;
+    color:white;
+}
+
+.ol_1 li p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:1vw;
+}
+
+.ol_1 li span{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(105, 49, 59);
+    padding:1vw;
+}
+
+

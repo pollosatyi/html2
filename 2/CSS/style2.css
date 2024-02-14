@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(235, 225, 225);
+}
+
+h1 {
+    margin-left: 3vw;
+}
+
+ol {
+    font-size: 36px;
+    padding-left: 5vw;
+    list-style-position: inside;
+}
+
+ol li {
+    padding-left: 5vw;
+}
+
+ol li.unchecked_16 {
+    list-style-image: url(../icons/unchecked_16.png);
+}
+
+ol li.checked_16 {
+    list-style-image: url(../icons/checked_16.png);
+}
+
+#check {
+    background-color: rgb(207, 191, 191);
+}
+
+ol p {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: inline-block;
+}
+
+ol li span {
+    padding-left: 3vw;
+    color: red;
+}
+
+ol li:nth-child(even) {
+    background-color: rgb(186, 186, 234);
+}
+
+ol li:nth-child(odd) {
+    background-color: rgb(98, 98, 173);
+}

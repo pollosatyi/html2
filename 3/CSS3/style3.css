@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(221, 210, 196);
+    margin-left: 5vw;
+    margin-top: 12vh;
+    font-size: 20px;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+ol {
+    margin-left: 5vw;
+}
+
+.gray {
+    color: gray;
+}
+
+.violet {
+    color: violet;
+}
